@@ -1,0 +1,7 @@
+mongo_host: 127.0.0.1:27017
+shopee:
+  "SG":
+      host: shopee.sg
+      category_url: https://shopee.sg/api/v1/category_list/
+      item_list_url: https://shopee.sg/api/v1/search_items/?by=pop&order=desc&categoryids=%d&newest=%d&limit=%d
+      item_info_url: https://shopee.sg/api/v1/items/
